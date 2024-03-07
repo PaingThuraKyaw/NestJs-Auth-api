@@ -1,6 +1,6 @@
 import { IsEmail, IsNotEmpty, IsString } from 'class-validator';
 
-export class SignUp {
+export class payloadProp {
   @IsEmail()
   email: string;
 
