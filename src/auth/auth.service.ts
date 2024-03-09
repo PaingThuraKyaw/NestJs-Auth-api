@@ -44,7 +44,6 @@ export class AuthService {
     }
 
     const token = await this.signToken(user.id, user.email);
-    console.log(token);
 
     return { message: 'Login success', token };
   }
